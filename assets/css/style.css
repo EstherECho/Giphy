@@ -1,0 +1,41 @@
+button,
+div,
+form,
+input,
+h1 {
+  margin: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+.background {
+  background-color: rgb(224, 212, 201);
+}
+
+.background::after {
+  content: "";
+  background: url(https://3.bp.blogspot.com/-v2I2PE6tV-o/XFg-hWorPFI/AAAAAAAAFwE/s_VPiUsJcvwbp3mCHsP2Sitq_xq25e92ACHMYCw/s1600/seamless-fancy-wallpaper-and-background-%25E2%2580%2594-stock-vector-%25C2%25A9-malkani.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.container {
+  background-color: bisque;
+  margin-top: 35px;
+  border-style: solid;
+  border-width: medium;
+}
+
+#giph-input {
+  border-style: solid;
+  border-width: medium;
+}
